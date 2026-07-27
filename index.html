@@ -249,13 +249,14 @@
         }
         
         .profile-wrap img {
-        width: 100%;
-        max-width: 340px; /* Alterado de 280px para 340px */
-        height: 380px;    /* Ajuste opcional para manter uma boa proporção */
-        object-fit: cover; /* Garante que não haja distorção */
-        border-radius: 1.5rem;
-        position: relative;
-        z-index: 1;
+            width: 100%;
+            max-width: 380px; /* Ajustado de 340px para 380px */
+            aspect-ratio: 4/5; /* Mantém uma proporção equilibrada sem esticar */
+            object-fit: cover;
+            border-radius: 1.5rem;
+            position: relative;
+            z-index: 1;
+            display: block;
         }
         
         .profile-wrap::before {
@@ -771,34 +772,6 @@
                         <ul>
                             <li><i class="fas fa-tools" style="margin-right:4px"></i> PowerApps + SharePoint + Power Automate</li>
                             <li><i class="fas fa-chart-line" style="margin-right:4px"></i> Dashboard PHP com indicadores em tempo real</li>
-                        </ul>
-                    </div>
-                    <div class="project-visual" onclick="openModal('https://files.manuscdn.com/user_upload_by_module/session_file/310519663158461098/nolzpjbclvEqIhMs.png', 'App de Chamados de Manutenção Predial')">
-                        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663158461098/nolzpjbclvEqIhMs.png" alt="App Manutenção" style="max-width:260px;margin:0 auto">
-                        <div class="zoom"><i class="fas fa-expand"></i></div>
-                    </div>
-                </div>
-                <div class="project-visual" style="margin-top:1.5rem;border-radius:1rem;overflow:hidden;cursor:pointer" onclick="openModal('dashboard_unialfa_hd.png', 'ALFA Predial v1.4 - Dashboard Operacional')">
-                    <img src="dashboard_unialfa_hd.png" alt="Dashboard UNIALFA HD">
-                    <div class="zoom"><i class="fas fa-expand"></i></div>
-                    <p style="text-align:center;padding:0.75rem;color:rgba(255,255,255,0.3);font-size:0.85rem">Dashboard ALFA Predial — Indicadores de chamados Abertos e Concluídos</p>
-                </div>
-            </div>
-
-            <div class="project-divider"></div>
-
-            <!-- Projeto 3 -->
-            <div class="reveal" style="transition-delay:0.25s">
-                <div class="proj3-grid">
-                    <div class="project-info">
-                        <h3>Projeto 3: ALFA Predial — Piloto</h3>
-                        <p>Plataforma de gestão predial sendo desenvolvida sobre GLPI em conjunto com a GPTI e CSTI. Permitindo abertura e acompanhamento de chamados, cadastro de ativos, controle de manutenção preventiva e dashboards gerenciais.</p>
-                        <ul>
-                            <li><span style="color:#06b6d4">✓</span> Gestão de chamados</li>
-                            <li><span style="color:#06b6d4">✓</span> Inventário de ativos</li>
-                            <li><span style="color:#06b6d4">✓</span> Manutenção preventiva</li>
-                            <li><span style="color:#06b6d4">✓</span> Indicadores e dashboards</li>
-                            <li><span style="color:#06b6d4">✓</span> Interface personalizada ALFA Predial</li>
                         </ul>
                     </div>
                     <div class="project-visual">
